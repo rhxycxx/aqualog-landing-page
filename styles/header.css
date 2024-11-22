@@ -1,17 +1,71 @@
+/* #71cc71 #5BB35F*/
+
+
 .header{
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(240, 240, 240);
+  padding: 15px 10px 15px 10px;
 }
 
-.left-section{
+  .left-section{
 
-}
+  }
 
-.middle-section{
+    .info-block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background-color: grey; */
+      /* padding: 15px 0px 15px 0px; */
+    }
 
-}
+      .image-container{
+        margin-left: 10px;
+        margin-right: 10px;
+        /* background-color: blue; */
+      }
+        .logo{
+          width: 60px;
+          height: 60px;
+          object-fit: cover; 
+        }
 
-.right-section{
+      .info-text-section{
+        /* background-color: pink; */
+      } 
 
-}
+        .title{
+          font-size: 20px;
+          font-weight: bold;
+          margin: 0px 0px 0px 0px;
+        }
+
+        .address{
+          margin: 3px 0px 0px 0px;
+        }
+
+        .contact{
+          margin: 3px 0px 0px 0px;
+        }
+
+
+
+    
+
+
+  .right-section{
+
+  }
+
