@@ -1,0 +1,72 @@
+.aqualog-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+}
+
+.aqualog-logo{
+  /* width: ; */
+  height: 250px;
+}
+
+.aqualog-title{
+  font-family: Montserrat, Arial;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #2d6a4f; 
+
+  margin-top: -1px;
+}
+
+
+
+
+.feature-block{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  column-gap: 10px;
+  row-gap: 10px;
+  /* border: 1px black solid; */
+  flex-wrap: wrap;
+}
+
+.feature-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  flex-direction: column;
+  /* border: 1px orange solid;  */
+  padding: 15px 5px 15px 15px;
+  background-color: rgb(248, 248, 248);
+  border-radius: 8px;
+  border: 1px  rgba(45, 106, 79, 0.13) solid;
+}
+
+.feature-icon-container{
+  margin-bottom: 5px;
+  /* align-items: flex-start; */
+  justify-content: center ;
+  
+}
+
+.feature-icon{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.feature-title{
+  font-family: ;
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 3px;
+  color: ; 
+}
+
+.feature-description{
+  font-size: 16px;
+}

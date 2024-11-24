@@ -16,18 +16,19 @@
   border-bottom-style: solid;
   border-bottom-color: rgb(240, 240, 240);
   padding: 15px 15px 15px 10px;
+  border-radius: 5px;
 }
 
 .left-section{
-
+  min-width: 620px;
+  
 }
 
 .info-block{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: grey; */
-  /* padding: 15px 0px 15px 0px; */
+  
 }
 
 .image-container{
@@ -64,14 +65,19 @@
 
 }
 
-.login-header{ 
-  font-family: roboto;
+.login-button-header{ 
+  font-family: Roboto, Arial;
   font-size: 20px;
   font-weight: 600;
   background-color:#2d6a4f;
-  color: #EBE3DC;
+  color: rgb(235, 227, 220);
   border: none;
   padding: 8px 12px 8px 12px;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
+}
+
+.login-button-header:hover{
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deep, layered shadows */
+
 }
