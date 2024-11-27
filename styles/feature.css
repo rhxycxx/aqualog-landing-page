@@ -1,40 +1,86 @@
-.feature-block{
-  display: flex;
-  justify-content: center;
-  column-gap: 13px;
-  row-gap: 13px;
-  flex-wrap: wrap;
-  margin-top: 23px;
+@media (max-width: 500px) {
+  .feature-block{
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+    row-gap: 13px;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+
+  .feature-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 143px;
+    flex-direction: column;
+    padding: 15px 5px 15px 15px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    border: 1px  rgba(45, 106, 79, 0.13) solid;
+  }
+
+  .feature-icon-container{
+    margin-bottom: 5px;
+    justify-content: center ;
+  }
+
+  .feature-icon{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+  .feature-title{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 4px;
+  }
+
+  .feature-description{
+    font-size: 14px;
+  }
 }
 
-.feature-container{
-  display: flex;
-  flex-wrap: wrap;
-  width: 180px;
-  flex-direction: column;
-  padding: 15px 5px 15px 15px;
-  background-color: #e9ecef;
-  border-radius: 10px;
-  border: 1px  rgba(45, 106, 79, 0.13) solid;
-}
 
-.feature-icon-container{
-  margin-bottom: 5px;
-  justify-content: center ;
-}
+@media (min-width: 501px ){
+  .feature-block{
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+    row-gap: 13px;
+    flex-wrap: wrap;
+    margin-top: 23px;
+  }
 
-.feature-icon{
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}
+  .feature-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    flex-direction: column;
+    padding: 15px 5px 15px 15px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    border: 1px  rgba(45, 106, 79, 0.13) solid;
+  }
 
-.feature-title{
-  font-weight: bold;
-  font-size: 19px;
-  margin-bottom: 4px;
-}
+  .feature-icon-container{
+    margin-bottom: 5px;
+    justify-content: center ;
+  }
 
-.feature-description{
-  font-size: 14px;
+  .feature-icon{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+  .feature-title{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 4px;
+  }
+
+  .feature-description{
+    font-size: 14px;
+  }
 }

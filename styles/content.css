@@ -1,64 +1,162 @@
-.aqualog-block{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  font-family: poppins;
-  margin-bottom: 0px;
+/* mobile mode */
+
+@media (max-width: 500px){
+  .ordinance-block-pc, .aqualog-block-pc{
+    display: none;
+  }
+
+  .ordinance-block-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .ordinance-content-mobile{
+    border: 1px  rgba(45, 106, 79, 0.13) solid;
+    background-color: #e9ecef;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .compliant-mobile{
+    display: block;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-bottom: 7px;
+  }
+  
+  .ordinance-description-mobile{
+    line-height: 22px;
+    letter-spacing: 0.3px;
+
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  .al-block-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 7px;
+  }
+  
+  .al-content-mobile{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+
+  .al-da-mobile{
+    text-align: center;
+    font-family: poppins;
+    margin-bottom: 10px;
+  }
+
+  .al-title-mobile{
+    font-size: 60px;
+    margin-bottom: 18px;
+    text-align: center;
+    line-height: 58px;
+    margin-top: 10px;
+  }
+  
+  .al-description-mobile{
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    text-align: justify;
+    width: 330px;
+  }
+  
+  
 }
 
-.aqualog-name{
-  font-size: 75px;
-  margin-bottom: 18px;
-}
+@media (min-width: 501px){
 
-.aqualog-da-line{
-  font-weight: 450;
-  font-size: 23px;
-  letter-spacing: 1px;
-}
-
-.aqualog-paragraph{
-  line-height: 22px;
-  letter-spacing: 0.3px;
-  width: 839px;
-  font-weight: 400;
-  text-align: justify;
-}
-
-.ordinance-block{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 25px;
-}
-
-.ordinance-content{
-  border: 1px  rgba(45, 106, 79, 0.13) solid;
-  background-color: #e9ecef;
-  padding-left: 21px;
-  padding-right: 21px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-}
-
-.compliant{
-  display: block;
-  font-family: poppins;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 25px;
-  margin-bottom: 7px;
-}
-
-.ordinance-description{
-  line-height: 22px;
-  letter-spacing: 0.3px;
-  width: 800px;
-  font-weight: 400;
-  text-align: justify;
+  .ordinance-block-mobile, .al-content-mobile{
+    display: none;
+  }
+  .aqualog-block-pc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: poppins;
+    margin-bottom: 0px;
+  }
+  
+  .aqualog-name-pc{
+    font-size: 60px;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+  
+  .aqualog-da-line-pc{
+    font-weight: 450;
+    font-size: 23px;
+    letter-spacing: 1px;
+  }
+  
+  .aqualog-paragraph-pc{
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    width: 839px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  
+  .ordinance-block-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  
+  .ordinance-content-pc{
+    border: 1px  rgba(45, 106, 79, 0.13) solid;
+    background-color: #e9ecef;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .compliant-pc{
+    display: block;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    margin-bottom: 7px;
+  }
+  
+  .ordinance-description-pc{
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    width: 800px;
+    font-weight: 400;
+    text-align: justify;
+  }
 }
