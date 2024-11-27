@@ -43,7 +43,6 @@
   }
 
   .middle-section{
-    /* flex-grow: 1; */
     flex: 1;
   }
 
@@ -52,7 +51,6 @@
     height: 35px;
     object-fit: cover; 
   }
-
 
   .right-section{   
     display: flex;
@@ -72,8 +70,7 @@
   }
 
   .login-button-header:hover{
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deep, layered shadows */
-
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   }
 }
 
@@ -131,10 +128,8 @@
     object-fit: cover; 
   }
 
-
   .right-section{
     flex-grow: 1;
-    
     display: flex;
     flex: 1;
     justify-content: end;
@@ -152,7 +147,6 @@
   }
 
   .login-button-header:hover{
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Deep, layered shadows */
-
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   }
 }
