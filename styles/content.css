@@ -2,75 +2,63 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  /* background-color: black; */
+  align-items: center; 
+  font-family: poppins;
+  margin-bottom: 0px;
 }
 
-.aqualog-logo{
-  /* width: ; */
-  height: 250px;
+.aqualog-name{
+  font-size: 75px;
+  margin-bottom: 18px;
 }
 
-.aqualog-title{
-  font-family: Montserrat, Arial;
-  font-weight: 700;
-  font-size: 24px;
-  letter-spacing: 0.5px;
-  color: #2d6a4f; 
-
-  margin-top: -1px;
+.aqualog-da-line{
+  font-weight: 450;
+  font-size: 23px;
+  letter-spacing: 1px;
 }
 
+.aqualog-paragraph{
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  width: 839px;
+  font-weight: 400;
+  text-align: justify;
+}
 
-
-
-.feature-block{
+.ordinance-block{
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  column-gap: 10px;
-  row-gap: 10px;
-  /* border: 1px black solid; */
-  flex-wrap: wrap;
-}
-
-.feature-container{
-  display: flex;
-  flex-wrap: wrap;
-  width: 180px;
+  align-items: center;
   flex-direction: column;
-  /* border: 1px orange solid;  */
-  padding: 15px 5px 15px 15px;
-  background-color: #E4ECE9;
-  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.ordinance-content{
   border: 1px  rgba(45, 106, 79, 0.13) solid;
+  background-color: #e9ecef;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
-.feature-icon-container{
-  margin-bottom: 5px;
-  /* align-items: flex-start; */
-  justify-content: center ;
-  
+.compliant{
+  display: block;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+  margin-bottom: 7px;
 }
 
-.feature-icon{
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-}
-
-.feature-text-section{
-  
-}
-
-.feature-title{
-  font-family: ;
-  font-weight: bold;
-  font-size: 19px;
-  margin-bottom: 3px;
-  color: ; 
-}
-
-.feature-description{
-  font-size: 15px;
+.ordinance-description{
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  width: 800px;
+  font-weight: 400;
+  text-align: justify;
 }
